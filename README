@@ -1,0 +1,8 @@
+[Ticket OTP-9963:]
+
+		The new function <c>digraph_utils:condensation/2</c>
+		modifies <c>condensation/1</c> by taking the
+		option <c>components_as_labels</c>. It can be used
+		when one suspects that the strong components of the
+		created graph are huge. See the documentation for
+		details.
